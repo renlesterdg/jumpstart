@@ -147,10 +147,10 @@ end
 add_gems
 
 after_bundle do
+  add_foreman
   add_users
   add_bootstrap
   add_sidekiq
-  add_foreman
   add_webpack
   add_announcements
   add_notifications
